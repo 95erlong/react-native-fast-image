@@ -1,3 +1,5 @@
+>基于[DylanVann/react-native-fast-image](https://github.com/DylanVann/react-native-fast-image)修改，加入清除缓存方法
+
 <h1 align="center">
   🚩 FastImage
 </h1>
