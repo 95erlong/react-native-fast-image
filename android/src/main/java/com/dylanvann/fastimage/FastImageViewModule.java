@@ -53,4 +53,9 @@ class FastImageViewModule extends ReactContextBaseJavaModule {
             }
         });
     }
+
+    @ReactMethod
+    public void clearCacheImage() {
+        Glide.get(getCurrentActivity()).clearDiskCache();
+    }
 }
