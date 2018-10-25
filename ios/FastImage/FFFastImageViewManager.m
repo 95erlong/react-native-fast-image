@@ -36,6 +36,7 @@ RCT_EXPORT_METHOD(preload:(nonnull NSArray<FFFastImageSource *> *)sources)
 
 RCT_EXPORT_METHOD(clearCacheImage){
  [[SDImageCache sharedImageCache] clearMemory];
+ [[SDImageCache sharedImageCache] clearDiskOnCompletion:nil];
 }
 
 @end
